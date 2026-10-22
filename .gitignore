@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Java
+*.class
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+crash-reports/
+
+# Windows
+Thumbs.db
+.DS_Store
+.gradle-bootstrap/
+dist/

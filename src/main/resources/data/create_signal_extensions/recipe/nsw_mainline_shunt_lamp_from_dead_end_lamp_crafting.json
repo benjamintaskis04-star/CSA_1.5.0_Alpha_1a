@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "create_signal_extensions:nsw_mainline_dead_end_lamp"
+    }
+  ],
+  "result": {
+    "id": "create_signal_extensions:nsw_mainline_shunt_lamp",
+    "count": 1
+  }
+}

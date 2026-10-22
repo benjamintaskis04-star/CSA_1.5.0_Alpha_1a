@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_signal_extensions:nsw_single_colour_converging_signal"
+  },
+  "result": {
+    "id": "create_signal_extensions:nsw_single_colour_distant_signal",
+    "count": 1
+  }
+}

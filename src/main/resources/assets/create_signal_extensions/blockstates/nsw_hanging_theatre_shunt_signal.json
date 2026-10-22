@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=south,aspect=stop": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_stop"
+    },
+    "facing=south,aspect=shunt_proceed": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_shunt_proceed"
+    },
+    "facing=west,aspect=stop": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_stop",
+      "y": 90
+    },
+    "facing=west,aspect=shunt_proceed": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_shunt_proceed",
+      "y": 90
+    },
+    "facing=north,aspect=stop": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_stop",
+      "y": 180
+    },
+    "facing=north,aspect=shunt_proceed": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_shunt_proceed",
+      "y": 180
+    },
+    "facing=east,aspect=stop": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_stop",
+      "y": 270
+    },
+    "facing=east,aspect=shunt_proceed": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_shunt_proceed",
+      "y": 270
+    },
+    "facing=south,aspect=running_proceed": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_stop"
+    },
+    "facing=west,aspect=running_proceed": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_stop",
+      "y": 90
+    },
+    "facing=north,aspect=running_proceed": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_stop",
+      "y": 180
+    },
+    "facing=east,aspect=running_proceed": {
+      "model": "create_signal_extensions:block/nsw_hanging_theatre_shunt_signal_stop",
+      "y": 270
+    }
+  }
+}

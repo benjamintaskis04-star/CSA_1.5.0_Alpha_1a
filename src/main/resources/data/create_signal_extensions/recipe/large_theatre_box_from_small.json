@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "III",
+    "S S"
+  ],
+  "key": {
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "S": {
+      "item": "create_signal_extensions:small_theatre_box"
+    }
+  },
+  "result": {
+    "id": "create_signal_extensions:large_theatre_box",
+    "count": 1
+  }
+}

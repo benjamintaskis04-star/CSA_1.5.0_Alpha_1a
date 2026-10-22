@@ -1,0 +1,78 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "create_signal_extensions:block/nsw_single_colour_signal_head",
+    "particle": "create_signal_extensions:block/nsw_single_colour_signal_head"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            -12,
+            2,
+            4,
+            10
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            -13,
+            2,
+            -12,
+            10
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            5,
+            2,
+            21,
+            10
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            5,
+            10
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            4,
+            2,
+            -12,
+            1
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            20,
+            1,
+            4,
+            2
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

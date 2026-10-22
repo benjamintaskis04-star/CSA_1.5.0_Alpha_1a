@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_signal_extensions:nsw_double_colour_signal"
+  },
+  "result": {
+    "id": "create_signal_extensions:nsw_double_colour_universal_tunnel_signal",
+    "count": 1
+  }
+}

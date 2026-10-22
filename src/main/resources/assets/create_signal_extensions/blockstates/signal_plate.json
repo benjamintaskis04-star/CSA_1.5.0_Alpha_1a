@@ -1,0 +1,68 @@
+{
+  "variants": {
+    "facing=south,mode=normal": {
+      "model": "create_signal_extensions:block/signal_plate_single_placed",
+      "y": 0
+    },
+    "facing=south,mode=co_act": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 0
+    },
+    "facing=south,mode=repeater": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 0
+    },
+    "facing=west,mode=normal": {
+      "model": "create_signal_extensions:block/signal_plate_single_placed",
+      "y": 90
+    },
+    "facing=west,mode=co_act": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 90
+    },
+    "facing=west,mode=repeater": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 90
+    },
+    "facing=north,mode=normal": {
+      "model": "create_signal_extensions:block/signal_plate_single_placed",
+      "y": 180
+    },
+    "facing=north,mode=co_act": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 180
+    },
+    "facing=north,mode=repeater": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 180
+    },
+    "facing=east,mode=normal": {
+      "model": "create_signal_extensions:block/signal_plate_single_placed",
+      "y": 270
+    },
+    "facing=east,mode=co_act": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 270
+    },
+    "facing=east,mode=repeater": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 270
+    },
+    "facing=south,mode=dist": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 0
+    },
+    "facing=west,mode=dist": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 90
+    },
+    "facing=north,mode=dist": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 180
+    },
+    "facing=east,mode=dist": {
+      "model": "create_signal_extensions:block/signal_plate_double_placed",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "rows": "1",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x1"
+      }
+    },
+    {
+      "when": {
+        "rows": "1",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "rows": "1",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "rows": "1",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "rows": "2",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x2"
+      }
+    },
+    {
+      "when": {
+        "rows": "2",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "rows": "2",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "rows": "2",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "rows": "3",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x3"
+      }
+    },
+    {
+      "when": {
+        "rows": "3",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "rows": "3",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "rows": "3",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/small_theatre_box_2x3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/signal_bracket"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/signal_bracket",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/signal_bracket",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/signal_bracket",
+        "y": 270
+      }
+    }
+  ]
+}

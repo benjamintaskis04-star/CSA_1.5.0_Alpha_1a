@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "create_signal_extensions:large_theatre_box"
+    }
+  ],
+  "result": {
+    "id": "create_signal_extensions:small_theatre_box",
+    "count": 2
+  }
+}

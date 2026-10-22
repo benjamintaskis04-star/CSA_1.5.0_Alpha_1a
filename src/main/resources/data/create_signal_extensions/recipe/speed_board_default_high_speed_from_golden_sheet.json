@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create:golden_sheet"
+  },
+  "result": {
+    "id": "create_signal_extensions:speed_board_default_high_speed",
+    "count": 1
+  }
+}

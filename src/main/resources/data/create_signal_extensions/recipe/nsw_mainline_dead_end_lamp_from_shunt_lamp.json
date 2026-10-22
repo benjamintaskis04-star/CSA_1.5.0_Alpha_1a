@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_signal_extensions:nsw_mainline_shunt_lamp"
+  },
+  "result": {
+    "id": "create_signal_extensions:nsw_mainline_dead_end_lamp",
+    "count": 1
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_default_mu_high_speed"
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_triple_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_mid",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_triple_top",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_default_mu_high_speed",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_triple_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_mid",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_triple_top",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_default_mu_high_speed",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_triple_bottom"
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_mid"
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_triple_top"
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_default_mu_high_speed",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_triple_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_mid",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/speed_board_bracket_triple_top",
+        "y": 90
+      }
+    }
+  ]
+}

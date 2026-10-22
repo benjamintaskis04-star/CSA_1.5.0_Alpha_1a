@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "create_signal_extensions:route_interface",
+    "create_signal_extensions:large_theatre_box",
+    "create_signal_extensions:small_theatre_box",
+    "create_signal_extensions:nsw_single_colour_signal",
+    "create_signal_extensions:nsw_single_colour_diverging_signal",
+    "create_signal_extensions:nsw_single_colour_converging_signal",
+    "create_signal_extensions:nsw_single_colour_distant_signal",
+    "create_signal_extensions:nsw_ground_shunt_signal",
+    "create_signal_extensions:nsw_post_shunt_signal",
+    "create_signal_extensions:nsw_ground_theatre_shunt_signal",
+    "create_signal_extensions:nsw_post_theatre_shunt_signal"
+  ]
+}

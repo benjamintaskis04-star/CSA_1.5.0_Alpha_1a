@@ -1,0 +1,20 @@
+Create: Signalling Additions 1.4.0 Pre-Release (internal version 1.4.0-pre.1)
+
+Built from the supplied Beta 3a source, preserving its speed-restriction optimisations.
+
+Changes:
+- Signal identification plate cycles NORMAL -> CO ACT -> REPEATER -> DIST -> NORMAL.
+- New NSW two-aspect single-colour-light signal, red STOP and green PROCEED only.
+- Restricted logical readings stay red; only unrestricted PROCEED clears green.
+- Supports the existing signal-linking and vertical-height systems.
+- Same crafting recipe materials/count and self-drop as the original single-colour signal.
+- Stonecutter conversions between standard single-colour and new two-aspect signal.
+- User Blockbench geometry, UVs, face texture assignments, rotations and display transforms preserved.
+- Signal textures remapped to existing CSA textures and active lamp illuminated.
+
+QA: two source/resource validation passes passed. Full Gradle build NOT verified here:
+Foojay resolver convention plugin unavailable in this environment. Use BUILD.bat on Windows JDK 21.
+
+Test: red/green visuals, in-world height adjustment, plate cycle, survival drop,
+crafting and stonecutting, linkage, restrictive route aspects, and old-world plates.
+Check red-lamp UVs carefully: supplied model has coordinates above 16 on one red element.

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "S S",
+    "SES",
+    "STS"
+  ],
+  "key": {
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "T": {
+      "item": "create:transmitter"
+    }
+  },
+  "result": {
+    "id": "create_signal_extensions:nsw_single_colour_signal",
+    "count": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "result": {
+    "id": "create_signal_extensions:end_of_shunt_sign",
+    "count": 1
+  }
+}

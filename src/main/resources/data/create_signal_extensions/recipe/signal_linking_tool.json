@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  B",
+    " R ",
+    "S  "
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_torch"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "create_signal_extensions:signal_linking_tool",
+    "count": 1
+  }
+}

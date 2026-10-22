@@ -1,0 +1,301 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "south",
+        "right": "false",
+        "dead_end_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_left_unlit"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "false",
+        "dead_end_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_left_lit"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "true",
+        "dead_end_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_right_unlit"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "true",
+        "dead_end_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_right_lit"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "combined": "true",
+        "shunt_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_unlit"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "combined": "true",
+        "shunt_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_lit"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "false",
+        "dead_end_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_left_unlit",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "false",
+        "dead_end_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_left_lit",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "true",
+        "dead_end_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_right_unlit",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "true",
+        "dead_end_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_right_lit",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "combined": "true",
+        "shunt_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_unlit",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "combined": "true",
+        "shunt_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_lit",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "false",
+        "dead_end_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_left_unlit",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "false",
+        "dead_end_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_left_lit",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "true",
+        "dead_end_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_right_unlit",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "true",
+        "dead_end_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_right_lit",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "combined": "true",
+        "shunt_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_unlit",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "combined": "true",
+        "shunt_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_lit",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "false",
+        "dead_end_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_left_unlit",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "false",
+        "dead_end_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_left_lit",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "true",
+        "dead_end_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_right_unlit",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "true",
+        "dead_end_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_dead_end_lamp_right_lit",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "combined": "true",
+        "shunt_lit": "false"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_unlit",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "combined": "true",
+        "shunt_lit": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_lit",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "combined": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_bracket"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "combined": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_bracket",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "combined": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_bracket",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "combined": "true"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_mainline_shunt_lamp_bracket",
+        "y": 270
+      }
+    }
+  ]
+}

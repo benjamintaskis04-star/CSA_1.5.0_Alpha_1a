@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "create_signal_extensions:block/route_interface" }
+  }
+}

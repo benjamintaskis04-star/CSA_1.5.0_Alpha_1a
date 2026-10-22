@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=south,proceed=false": {
+      "model": "create_signal_extensions:block/nsw_repeater_signal_stop",
+      "y": 0
+    },
+    "facing=west,proceed=false": {
+      "model": "create_signal_extensions:block/nsw_repeater_signal_stop",
+      "y": 90
+    },
+    "facing=north,proceed=false": {
+      "model": "create_signal_extensions:block/nsw_repeater_signal_stop",
+      "y": 180
+    },
+    "facing=east,proceed=false": {
+      "model": "create_signal_extensions:block/nsw_repeater_signal_stop",
+      "y": 270
+    },
+    "facing=south,proceed=true": {
+      "model": "create_signal_extensions:block/nsw_repeater_signal_proceed",
+      "y": 0
+    },
+    "facing=west,proceed=true": {
+      "model": "create_signal_extensions:block/nsw_repeater_signal_proceed",
+      "y": 90
+    },
+    "facing=north,proceed=true": {
+      "model": "create_signal_extensions:block/nsw_repeater_signal_proceed",
+      "y": 180
+    },
+    "facing=east,proceed=true": {
+      "model": "create_signal_extensions:block/nsw_repeater_signal_proceed",
+      "y": 270
+    }
+  }
+}

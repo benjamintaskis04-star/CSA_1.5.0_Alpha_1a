@@ -1,0 +1,139 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'idea'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = mod_version
+group = mod_group_id
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven { url = "https://maven.createmod.net" }
+    maven { url = "https://mvn.devos.one/snapshots" }
+}
+
+base {
+    archivesName = 'create_signalling_additions'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+
+neoForge {
+    version = project.neo_version
+
+
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+
+    runs {
+        client {
+            client()
+            jvmArguments.addAll '-Xmx2G', '-Xms512M'
+        }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+dependencies {
+    implementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
+    implementation("net.createmod.ponder:ponder-neoforge:${ponder_version}+mc${minecraft_version}")
+    compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}")
+    runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}")
+    implementation("com.tterrag.registrate:Registrate:${registrate_version}")
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+        minecraft_version: minecraft_version,
+        minecraft_version_range: minecraft_version_range,
+        neo_version: neo_version,
+        neo_version_range: neo_version_range,
+        loader_version_range: loader_version_range,
+        mod_id: mod_id,
+        mod_name: mod_name,
+        mod_license: mod_license,
+        mod_version: mod_version,
+        mod_authors: mod_authors,
+        mod_description: mod_description
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+// Windows on the target machine intermittently makes individual files in
+// src/main/resources unreadable during a Gradle build.  This has happened both
+// during Gradle fingerprinting and during a plain execution-time copy, and the
+// affected PNG changes from run to run.
+//
+// To avoid opening hundreds of individual resource files while building, all
+// static resources are shipped in one prebuilt archive at
+// build-support/static-resources.zip.  The normal processResources task stays
+// disabled.  safeProcessResources opens that single archive and expands it into
+// build/resources/main, then adds the generated mod metadata.
+tasks.named('processResources') {
+    enabled = false
+}
+
+var safeProcessResources = tasks.register('safeProcessResources') {
+    dependsOn generateModMetadata
+    doNotTrackState('Static resources are expanded from one prebuilt archive to avoid intermittent Windows file-read failures')
+
+    doLast {
+        def resourcesOut = layout.buildDirectory.dir('resources/main').get().asFile
+        def resourcesBundle = file('build-support/static-resources.zip')
+
+        if (!resourcesBundle.isFile())
+            throw new GradleException("Missing build-support/static-resources.zip; re-extract the complete source package")
+
+        delete resourcesOut
+        resourcesOut.mkdirs()
+
+        copy {
+            from zipTree(resourcesBundle)
+            into resourcesOut
+        }
+
+        copy {
+            from layout.buildDirectory.dir('generated/sources/modMetadata')
+            into resourcesOut
+        }
+    }
+}
+
+tasks.named('classes') {
+    dependsOn safeProcessResources
+}
+
+tasks.named('jar') {
+    dependsOn safeProcessResources
+}
+
+// Small deterministic regression checks run without starting Minecraft.
+sourceSets.test.compileClasspath += sourceSets.main.compileClasspath
+sourceSets.test.runtimeClasspath += sourceSets.main.runtimeClasspath
+def alpha1aChecks = tasks.register('alpha1aChecks', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.benjamintaskis.createsignalextensions.Alpha1aChecks'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(21) }
+}
+tasks.named('check') { dependsOn alpha1aChecks }

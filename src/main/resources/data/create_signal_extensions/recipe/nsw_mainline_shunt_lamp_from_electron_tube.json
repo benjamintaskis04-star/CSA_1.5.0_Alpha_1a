@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create:electron_tube"
+  },
+  "result": {
+    "id": "create_signal_extensions:nsw_mainline_shunt_lamp",
+    "count": 1
+  }
+}

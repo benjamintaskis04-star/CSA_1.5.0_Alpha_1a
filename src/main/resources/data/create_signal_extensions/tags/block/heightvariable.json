@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "create_signal_extensions:route_interface",
+    "create_signal_extensions:large_theatre_box",
+    "create_signal_extensions:small_theatre_box",
+    "create_signal_extensions:nsw_single_colour_signal",
+    "create_signal_extensions:nsw_single_colour_diverging_signal",
+    "create_signal_extensions:nsw_single_colour_converging_signal",
+    "create_signal_extensions:nsw_single_colour_distant_signal",
+    "create_signal_extensions:nsw_double_colour_signal",
+    "create_signal_extensions:nsw_double_colour_diverging_signal",
+    "create_signal_extensions:nsw_double_colour_converging_signal",
+    "create_signal_extensions:nsw_double_colour_universal_signal",
+    "create_signal_extensions:nsw_double_colour_universal_tunnel_signal",
+    "create_signal_extensions:nsw_mainline_shunt_lamp",
+    "create_signal_extensions:nsw_mainline_dead_end_lamp",
+    "create_signal_extensions:signal_plate",
+    "create_signal_extensions:speed_board",
+    "create_signal_extensions:speed_board_default_mu",
+    "create_signal_extensions:speed_board_default_high_speed",
+    "create_signal_extensions:speed_board_default_mu_high_speed",
+    "create_signal_extensions:unrestricted_speed_board",
+    "create_signal_extensions:end_of_shunt_sign",
+    "create_signal_extensions:nsw_end_of_line_marker",
+    "create_signal_extensions:nsw_single_colour_fixed_red_signal",
+    "create_signal_extensions:nsw_double_colour_fixed_red_signal",
+    "create_signal_extensions:nsw_single_colour_two_aspect_signal"
+  ]
+}

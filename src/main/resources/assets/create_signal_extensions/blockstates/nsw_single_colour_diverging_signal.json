@@ -1,0 +1,668 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "unlinked"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_stop"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "stop"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_stop"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "caution"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_caution"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "medium_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_on"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "medium_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_off"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "proceed"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_proceed"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "turnout_left"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_turnout_left"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "turnout_right"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_turnout_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "medium_turnout_left_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_left_on"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "medium_turnout_left_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_left_off"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "medium_turnout_right_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_right_on"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "turnout": "both",
+        "aspect": "medium_turnout_right_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_right_off"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "unlinked"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_stop",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "stop"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_stop",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "caution"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_caution",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "medium_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_on",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "medium_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_off",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "proceed"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_proceed",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "turnout_left"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_turnout_left",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "turnout_right"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_turnout_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "medium_turnout_left_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_left_on",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "medium_turnout_left_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_left_off",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "medium_turnout_right_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_right_on",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "turnout": "both",
+        "aspect": "medium_turnout_right_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_right_off",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "unlinked"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_stop",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "stop"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_stop",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "caution"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_caution",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "medium_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_on",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "medium_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_off",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "proceed"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_proceed",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "turnout_left"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_turnout_left",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "turnout_right"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_turnout_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "medium_turnout_left_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_left_on",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "medium_turnout_left_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_left_off",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "medium_turnout_right_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_right_on",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "turnout": "both",
+        "aspect": "medium_turnout_right_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_right_off",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "unlinked"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_stop",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "stop"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_stop",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "caution"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_caution",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "medium_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_on",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "medium_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_off",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "proceed"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_proceed",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "turnout_left"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_turnout_left",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "turnout_right"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_turnout_right",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "medium_turnout_left_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_left_on",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "medium_turnout_left_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_left_off",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "medium_turnout_right_on"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_right_on",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "turnout": "both",
+        "aspect": "medium_turnout_right_off"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_signal_div_medium_turnout_right_off",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_signal_bracket_div_upper"
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_signal_bracket_div_lower"
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_signal_bracket_div_upper",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_signal_bracket_div_lower",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_signal_bracket_div_upper",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_signal_bracket_div_lower",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_signal_bracket_div_upper",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_signal_bracket_div_lower",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "aspect": "dark"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_diverging_signal_dark"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "aspect": "out_of_use"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_diverging_signal_out_of_use"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "aspect": "dark"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_diverging_signal_dark",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "aspect": "out_of_use"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_diverging_signal_out_of_use",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "aspect": "dark"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_diverging_signal_dark",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "aspect": "out_of_use"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_diverging_signal_out_of_use",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "aspect": "dark"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_diverging_signal_dark",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "aspect": "out_of_use"
+      },
+      "apply": {
+        "model": "create_signal_extensions:block/nsw_single_colour_diverging_signal_out_of_use",
+        "y": 270
+      }
+    }
+  ]
+}

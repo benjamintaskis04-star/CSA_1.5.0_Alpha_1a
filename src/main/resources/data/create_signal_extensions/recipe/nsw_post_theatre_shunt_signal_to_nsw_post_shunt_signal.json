@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_signal_extensions:nsw_post_theatre_shunt_signal"
+  },
+  "result": {
+    "id": "create_signal_extensions:nsw_post_shunt_signal",
+    "count": 1
+  }
+}
