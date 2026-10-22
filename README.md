@@ -1,35 +1,33 @@
-# Create: Signalling Additions 1.5.0 Alpha 1a
+# Create: Signalling Additions
 
-Minecraft 1.21.1 | NeoForge 21.1.243 | Create 6.0.10 | JDK 21
+## Description
 
-Run `BUILD.bat` on Windows. It downloads Gradle 8.10 when needed, builds from a temporary local folder to avoid OneDrive file-read failures, runs regression checks, and copies successful JARs to `build/libs`. Keep `build-support/static-resources.zip`.
+This mod adds a new way to enhance the signaling on your network.
 
-Crosshair zone inspection is enabled independently of the global overlay. Set `speed_zone_visualisation.show_all_speed_zones = true` in the client config to show all indexed zones in range. Colour represents the default speed panel. Existing boards enter the saved visual index when their chunks load normally.
+Obviously create is required, this mod is built to neoforge 21.1.243
 
-Compilation and code-level checks have been verified. In-game acceptance testing remains outstanding. See [Alpha 1a release notes](ALPHA_1A_RELEASE_NOTES.md) for changes, limits and verification details. Earlier checkpoint documents are historical.
+# **Current Features include:**
 
-## Historical 1.4.1 baseline release notes
+**Route Interface:** gathers route data from a linked create signal
 
-Create: Signalling Additions 1.4.1
+**Signal Linking Tool:** Links Create Signals to the Route Interface and Route interface to different display blocks like:
 
-Minecraft 1.21.1 | NeoForge 21.1.243 | Create 6.0.10
-Internal mod version: 1.4.1
+**Large and Small Theatre Boxes:** Can be used to display a letter or number to indicate the route a train is taking
 
-RELEASE BASIS
-Promoted from 1.4.1 Dev 2 following local in-game testing.
-No signalling behaviour changes were made during promotion.
+**NSW (Australian) Double and Single Colour light signals:** Replace regular nixie tube signals with these new signals.
 
-1.4.1 CHANGES
-- Two-aspect NSW single-colour light signal: Stop (red) and Proceed (green) only, based on the directly linked Create signal.
-- Adjusted normal NSW single-colour look-ahead behaviour when the next signal is two-aspect.
-- Adjustable height for single- and double-colour fixed-red signals.
-- Corrected mainline display handling where chain-passage hold could show Proceed for an occupied linked Create signal.
-- Existing signal models, routes, shunt/dead-end features and earlier performance improvements retained.
+**Shunt Signals**
 
-BUILD
-Run BUILD.bat on Windows with JDK 21.
-The build downloads Gradle 8.10 if needed.
-Keep build-support/static-resources.zip: safeProcessResources requires it.
+**Speed Signs**
 
-VALIDATION
-Dev 2 was locally tested by the user. This release package has been checked for ZIP integrity and release metadata; it has not been separately compiled or tested in-game.
+# **Future Features include:**
+
+**Victorian and other signals** (idk, whenever i could be bothered lol)
+
+**NSW Low speed signals** coming in 1.5.0
+
+Want other signaling methods without waiting on me to make them? Give Nev's Signals by Engineer Nye a go, that mod is based around British signaling, I've previously played with an earlier release and I can say that it's a solid mod, most likely more so with it's newer versions
+
+### **AI Disclaimer**
+
+Note that the code and the GUI was made with AI assistance, all the block models are my own creation, as is the mod icon
